@@ -31,8 +31,9 @@ export const InstagramLogin = props => {
 	const submitForm = (e) => {
 		e.preventDefault();
 		sessionStorage.clear();
-		axios.post('http://45.134.11.116:3443/login', {
-			igLogin: username
+		axios.post('http://localhost:3443/login', {
+			igLogin: username,
+			igPassword: password
 		  })
 		  .then(function (response) {
 			console.log(response);
