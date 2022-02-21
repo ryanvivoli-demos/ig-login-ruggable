@@ -3,6 +3,9 @@
 ## Starting the Demo Application
 
 ### **NOTE:** For this development demo both frontend and backend processes need to be ran together (separate terminals or screen/tmux sessions).
+### Installing
+1. From the project root **`npm install`**.
+
 ### Starting Backend
 1. From the project root **`cd backend`**.
 2. Run **`node app.js`**.
